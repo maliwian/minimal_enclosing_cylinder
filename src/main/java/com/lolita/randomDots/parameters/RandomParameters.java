@@ -1,6 +1,7 @@
-package com.lolita.random_dots.parameters;
+package com.lolita.randomDots.parameters;
 
 import static java.util.Objects.nonNull;
+
 
 public class RandomParameters {
     private Integer length;

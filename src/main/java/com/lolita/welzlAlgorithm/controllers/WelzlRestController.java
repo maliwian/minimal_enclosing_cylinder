@@ -1,7 +1,8 @@
-package com.lolita.welzl_algorithm.controllers;
+package com.lolita.welzlAlgorithm.controllers;
 
-import com.lolita.welzl_algorithm.model.CalculateResult;
 import org.springframework.web.bind.annotation.*;
+
+import com.lolita.welzlAlgorithm.model.CalculateResult;
 
 
 @RestController

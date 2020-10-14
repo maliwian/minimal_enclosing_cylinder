@@ -1,4 +1,4 @@
-package com.lolita.welzl_algorithm.model;
+package com.lolita.welzlAlgorithm.model;
 
 public class Result {
     private Object circle;

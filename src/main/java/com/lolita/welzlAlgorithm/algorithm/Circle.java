@@ -1,6 +1,7 @@
-package com.lolita.welzl_algorithm.algorithm;
+package com.lolita.welzlAlgorithm.algorithm;
 
 import java.util.Collection;
+
 
 public class Circle {
     private static final double MULTIPLICATIVE_EPSILON = 1 + 1e-14;

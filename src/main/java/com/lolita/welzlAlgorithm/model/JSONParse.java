@@ -1,12 +1,12 @@
-package com.lolita.welzl_algorithm.model;
+package com.lolita.welzlAlgorithm.model;
 
 import org.springframework.boot.json.JsonParser;
 import org.springframework.boot.json.JsonParserFactory;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
-
 import static java.util.Objects.nonNull;
+
 
 public class JSONParse {
     private String url;

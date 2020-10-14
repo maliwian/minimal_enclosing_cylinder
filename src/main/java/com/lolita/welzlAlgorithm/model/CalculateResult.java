@@ -1,15 +1,16 @@
-package com.lolita.welzl_algorithm.model;
-
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.lolita.welzl_algorithm.algorithm.SmallestEnclosingCircle;
-import com.lolita.welzl_algorithm.algorithm.Point;
-import com.lolita.welzl_algorithm.algorithm.Circle;
+package com.lolita.welzlAlgorithm.model;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.lolita.welzlAlgorithm.algorithm.SmallestEnclosingCircle;
+import com.lolita.welzlAlgorithm.algorithm.Point;
+import com.lolita.welzlAlgorithm.algorithm.Circle;
+
 
 public class CalculateResult {
     private List<Point> dotList = new ArrayList<Point>(); // two-dimensional representation of dot
@@ -44,7 +45,7 @@ public class CalculateResult {
         c = algorithm.makeCircle(dotList);
         long totalTime = System.currentTimeMillis() - startTime;
 
-        com.lolita.welzl_algorithm.model.Result result = new com.lolita.welzl_algorithm.model.Result(c, asDouble(Collections.min(zList, null)), asDouble(Collections.max(zList, null)),
+        Result result = new Result(c, asDouble(Collections.min(zList, null)), asDouble(Collections.max(zList, null)),
                 zList.size(), totalTime);
 
         return result;

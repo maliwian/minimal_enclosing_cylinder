@@ -1,4 +1,4 @@
-package com.lolita.welzl_algorithm.algorithm;
+package com.lolita.welzlAlgorithm.algorithm;
 
 public class Point {
 

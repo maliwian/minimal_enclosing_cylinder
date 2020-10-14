@@ -1,9 +1,10 @@
-package com.lolita.welzl_algorithm.algorithm;
+package com.lolita.welzlAlgorithm.algorithm;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Random;
+
 
 public final class SmallestEnclosingCircle {
     /*

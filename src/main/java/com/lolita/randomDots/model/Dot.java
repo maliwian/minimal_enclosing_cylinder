@@ -1,4 +1,4 @@
-package com.lolita.random_dots.model;
+package com.lolita.randomDots.model;
 
 public class Dot {
     private double x;

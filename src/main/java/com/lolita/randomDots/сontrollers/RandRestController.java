@@ -1,8 +1,9 @@
-package com.lolita.random_dots.сontrollers;
+package com.lolita.randomDots.сontrollers;
 
-import com.lolita.random_dots.model.RandomDots;
-import com.lolita.random_dots.parameters.RandomParameters;
 import org.springframework.web.bind.annotation.*;
+
+import com.lolita.randomDots.model.RandomDots;
+import com.lolita.randomDots.parameters.RandomParameters;
 
 
 @RestController

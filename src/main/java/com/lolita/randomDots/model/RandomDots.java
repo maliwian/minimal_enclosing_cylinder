@@ -1,9 +1,10 @@
-package com.lolita.random_dots.model;
+package com.lolita.randomDots.model;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.IOException;
 import java.util.ArrayList;
+
 
 public class RandomDots {
     ArrayList<Dot> dots = new ArrayList<>();
